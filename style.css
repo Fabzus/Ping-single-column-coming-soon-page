@@ -1,0 +1,224 @@
+/* =+=+=+=+=+=+=+=+=+ GENERAL STYLE START =+=+=+=+=+=+=+=+=+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+}
+
+h1 span {
+  font-size: 5rem;
+  font-weight: 700;
+  color: black;
+}
+h2 {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.attribution {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* =+=+=+=+=+=+=+=+=+ GENERAL STYLE END =+=+=+=+=+=+=+=+=+ */
+
+/* =+=+=+=+=+=+=+=+=+ MAIN STYLE START =+=+=+=+=+=+=+=+=+ */
+/* ?IMG */
+.logo {
+  margin-bottom: 3rem;
+}
+.logo img {
+  width: 8rem;
+}
+
+/* ?IMG */
+
+/* ?form */
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.form h1 {
+  margin-bottom: 2rem;
+}
+
+.form h2 {
+  margin-bottom: 3rem;
+}
+
+.form .formNotify {
+  display: flex;
+}
+.form .formNotify .formMail {
+  position: relative;
+}
+.form .formNotify input {
+  height: 100%;
+  width: 40rem;
+  padding-left: 1rem;
+  border-radius: 22rem;
+  border: 1px solid hsl(223, 100%, 88%);
+}
+
+.form .formNotify span {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: 1rem 3rem;
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  border-radius: 2.2rem;
+  margin-left: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+  transition: 0.3s;
+}
+.form .formNotify span:hover {
+  background-color: hsl(223, 100%, 50%);
+  box-shadow: rgba(100, 100, 111, 0.7) 0px 7px 29px 0px;
+}
+
+.form .formNotify p {
+  position: absolute;
+  bottom: -3rem;
+  left: 0;
+  color: red;
+}
+/* ?form */
+
+/* ?img */
+.img {
+  margin-bottom: 5rem;
+}
+
+.img img {
+  width: 62rem;
+}
+/* ?img */
+
+/* ?Socials */
+
+.Socials {
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.Socials a {
+  border: 2px solid hsl(223, 87%, 63%);
+  border-radius: 100%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  color: hsl(223, 87%, 63%);
+  transition: 0.3s;
+}
+.Socials i {
+  text-align: center;
+  width: 2.5rem;
+  height: 2rem;
+  font-size: 2rem;
+}
+
+.Socials a:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+}
+
+/* ?Socials */
+
+/* !MOBILE */
+@media only screen and (max-width: 500px) {
+  main {
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .form {
+    width: 100%;
+  }
+  .form h1 {
+    font-size: 3rem;
+  }
+
+  .form h1 span {
+    font-size: 3rem;
+  }
+
+  .form h2 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .form .formNotify {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form .formNotify input {
+    font-size: 2rem;
+    height: 5rem;
+    width: 100%;
+    padding-left: 4rem;
+    border-radius: 22rem;
+    margin-bottom: 1rem;
+  }
+
+  .form .formNotify span {
+    margin: 0;
+    height: 5rem;
+    text-align: center;
+    padding: auto;
+  }
+
+  .form .formNotify p {
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    color: red;
+  }
+
+  .img {
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+
+  .img img {
+    width: 100%;
+    margin: auto;
+  }
+}
+/* =+=+=+=+=+=+=+=+=+ MAIN STYLE END =+=+=+=+=+=+=+=+=+ */
