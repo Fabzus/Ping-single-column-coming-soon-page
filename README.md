@@ -22,7 +22,7 @@ This is a solution to the [Ping single column coming soon page on Frontend Mento
 ### Links
 
 - Solution URL: [github](https://github.com/Fabzus/Ping-single-column-coming-soon-page)
-- Live Site URL: [github](https://fabzus.github.io/qr-code-challenge.github.io/)
+- Live Site URL: [github](https://fabzus.github.io/Ping-single-column-coming-soon-page/)
 
 ## My process
 
